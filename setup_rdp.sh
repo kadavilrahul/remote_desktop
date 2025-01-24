@@ -92,7 +92,7 @@ Name=Visual Studio Code (Root)
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
 Exec=sudo code --no-sandbox --user-data-dir=/root/.vscode
-Icon=com.visualstudio.code
+Icon=vscode
 Type=Application
 Terminal=false
 Categories=Development;TextEditor;
