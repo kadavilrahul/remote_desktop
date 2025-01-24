@@ -1,6 +1,6 @@
 # Remote Desktop Setup Script
 
-Automated setup script that installs and configures XFCE desktop environment with xRDP server on Linux systems, including performance optimizations, network tuning, and security configurations. It inludes Firefox, Chromium, VS Code, Windsurf. It can be configured easily Microsoft RDP. The main advantage of this script is that it can run terminal commands as root while using Windsurf and VS Code
+Automated setup script that installs and configures XFCE desktop environment with xRDP server on Linux systems, including performance optimizations, network tuning, and security configurations. It inludes Firefox, Chromium, VS Code, Windsurf. It can be configured easily Microsoft RDP. The main advantage of this script is that it can run terminal commands as root while using Windsurf and VS Code. Tested and verified on Ubuntu 24.04.1 LTS.
 
 ## Installation
 
@@ -8,7 +8,13 @@ Automated setup script that installs and configures XFCE desktop environment wit
    ```bash
    git clone https://github.com/kadavilrahul/remote_desktop.git
    ```
-2. Run the setup script:
+
+2. Navigate to the project directory:
+   ```bash
+   cd remote_desktop
+   ```
+
+3. Run the setup script:
    ```bash
    bash setup_rdp.sh
    ```
