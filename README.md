@@ -4,11 +4,9 @@ Automated setup script that installs and configures XFCE desktop environment wit
 
 ## Installation
 
-1. Clone this repository or download the setup script:
+1. Clone this repository:
    ```bash
-   git clone [repository-url]
-   # or
-   wget [raw-script-url] -O setup_rdp.sh
+   git clone https://github.com/kadavilrahul/remote_desktop.git
    ```
 2. Run the setup script:
    ```bash
