@@ -4,3 +4,11 @@
 .vscode/
 *.swp
 *~
+
+# Ignore backups folder
+backups/
+
+# Ignore shell scripts, log files, and pid files
+*.sh
+*.log
+*.pid
